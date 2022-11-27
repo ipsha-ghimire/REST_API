@@ -1,0 +1,438 @@
+[{
+  "_id": {
+    "$oid": "637a17311f51daff12f097e1"
+  },
+  "title": "st up and stay",
+  "author": "shekhar dhawan",
+  "rating": 5.5,
+  "pages": 120,
+  "genres": [
+    "romcom"
+  ],
+  "reviews": [
+    {
+      "name": "Ipsika Ghimire",
+      "review": "best hindi books recommended for everyone"
+    },
+    {
+      "name": "Ishani Ghimire",
+      "review": "great book!"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "637b2c69b71dad68a2a417b5"
+  },
+  "title": "the fault in our stars",
+  "author": "John Green",
+  "rating": 8,
+  "pages": 560,
+  "reviews": [
+    {
+      "name": "sudip chaulagain",
+      "review": "heart touching book"
+    },
+    {
+      "name": "anisha bastakoti",
+      "review": "ending was very sad"
+    }
+  ],
+  "genres": [
+    "romance"
+  ]
+},{
+  "_id": {
+    "$oid": "637f6e8d0bffd5e905f7a826"
+  },
+  "title": "to killing a mockingbird",
+  "author": "Haper Lee",
+  "pages": 1200,
+  "genres": [
+    "fictional",
+    "romance"
+  ],
+  "reviews": [
+    {
+      "name": "Ipsha Ghimire",
+      "review": "Excellent read"
+    },
+    {
+      "name": "Ishan Ghimire",
+      "review": "thoroughly enjoyed reading the book"
+    }
+  ],
+  "rating": "9,2"
+},{
+  "_id": {
+    "$oid": "638301106c6a1713c1562e22"
+  },
+  "title": "we made it shine",
+  "author": "jhon willams",
+  "pages": 780,
+  "rating": 8.2,
+  "reviews": [
+    {
+      "name": "rodrina falangi",
+      "review": "awesome"
+    },
+    {
+      "name": "micheal jackson",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "tragedy"
+  ]
+},{
+  "_id": {
+    "$oid": "638301106c6a1713c1562e23"
+  },
+  "title": "Shape it",
+  "author": "michel johns",
+  "pages": 451,
+  "rating": 8,
+  "reviews": [
+    {
+      "name": "salina gurung",
+      "review": "awesome"
+    },
+    {
+      "name": "stepen hawking",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "comedy"
+  ]
+},{
+  "_id": {
+    "$oid": "6383012ba7403457b0dc312b"
+  },
+  "title": "we made it shine",
+  "author": "jhon willams",
+  "pages": 780,
+  "rating": 8.2,
+  "reviews": [
+    {
+      "name": "rodrina falangi",
+      "review": "awesome"
+    },
+    {
+      "name": "micheal jackson",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "tragedy"
+  ]
+},{
+  "_id": {
+    "$oid": "6383012ba7403457b0dc312c"
+  },
+  "title": "Shape it",
+  "author": "michel johns",
+  "pages": 451,
+  "rating": 8,
+  "reviews": [
+    {
+      "name": "salina gurung",
+      "review": "awesome"
+    },
+    {
+      "name": "stepen hawking",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "comedy"
+  ]
+},{
+  "_id": {
+    "$oid": "6383013d5a1c1c597efff469"
+  },
+  "title": "we made it shine",
+  "author": "jhon willams",
+  "pages": 780,
+  "rating": 8.2,
+  "reviews": [
+    {
+      "name": "rodrina falangi",
+      "review": "awesome"
+    },
+    {
+      "name": "micheal jackson",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "tragedy"
+  ]
+},{
+  "_id": {
+    "$oid": "6383013d5a1c1c597efff46a"
+  },
+  "title": "Shape it",
+  "author": "michel johns",
+  "pages": 451,
+  "rating": 8,
+  "reviews": [
+    {
+      "name": "salina gurung",
+      "review": "awesome"
+    },
+    {
+      "name": "stepen hawking",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "comedy"
+  ]
+},{
+  "_id": {
+    "$oid": "63830153a87f45069a0a13f5"
+  },
+  "title": "we made it shine",
+  "author": "jhon willams",
+  "pages": 780,
+  "rating": 8.2,
+  "reviews": [
+    {
+      "name": "rodrina falangi",
+      "review": "awesome"
+    },
+    {
+      "name": "micheal jackson",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "tragedy"
+  ]
+},{
+  "_id": {
+    "$oid": "63830153a87f45069a0a13f6"
+  },
+  "title": "stars above us ",
+  "author": "hurdina madagaskar",
+  "pages": 612,
+  "rating": 7.1,
+  "reviews": [
+    {
+      "name": "roma slohan",
+      "review": "awesome"
+    },
+    {
+      "name": "odhoho maskar",
+      "review": "well written"
+    }
+  ],
+  "genres": [
+    "romance",
+    "romcom"
+  ]
+},{
+  "_id": {
+    "$oid": "63830167158c3a17ad6c39f3"
+  },
+  "title": "big bang theory",
+  "author": "chuck lorry",
+  "pages": 780,
+  "rating": 9.2,
+  "reviews": [
+    {
+      "name": "heather falangi",
+      "review": "awesome"
+    },
+    {
+      "name": "milena jackson",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "tragedy"
+  ]
+},{
+  "_id": {
+    "$oid": "63830167158c3a17ad6c39f4"
+  },
+  "title": "Shape it",
+  "author": "michel johns",
+  "pages": 451,
+  "rating": 8,
+  "reviews": [
+    {
+      "name": "salina gurung",
+      "review": "awesome"
+    },
+    {
+      "name": "stepen hawking",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "comedy"
+  ]
+},{
+  "_id": {
+    "$oid": "6383017a6791ba44f7056635"
+  },
+  "title": "we made it shine",
+  "author": "jhon willams",
+  "pages": 780,
+  "rating": 8.2,
+  "reviews": [
+    {
+      "name": "rodrina falangi",
+      "review": "awesome"
+    },
+    {
+      "name": "micheal jackson",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "tragedy"
+  ]
+},{
+  "_id": {
+    "$oid": "6383017a6791ba44f7056636"
+  },
+  "title": "Shape it",
+  "author": "michel johns",
+  "pages": 451,
+  "rating": 8,
+  "reviews": [
+    {
+      "name": "salina gurung",
+      "review": "awesome"
+    },
+    {
+      "name": "stepen hawking",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "comedy"
+  ]
+},{
+  "_id": {
+    "$oid": "6383018d1c7e424efe90c3be"
+  },
+  "title": "we made it shine",
+  "author": "jhon willams",
+  "pages": 780,
+  "rating": 8.2,
+  "reviews": [
+    {
+      "name": "rodrina falangi",
+      "review": "awesome"
+    },
+    {
+      "name": "micheal jackson",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "tragedy"
+  ]
+},{
+  "_id": {
+    "$oid": "6383018d1c7e424efe90c3bf"
+  },
+  "title": "Shape it",
+  "author": "michel johns",
+  "pages": 451,
+  "rating": 8,
+  "reviews": [
+    {
+      "name": "salina gurung",
+      "review": "awesome"
+    },
+    {
+      "name": "stepen hawking",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "comedy"
+  ]
+},{
+  "_id": {
+    "$oid": "638301eb3ee9cf4ff97b435d"
+  },
+  "title": "we made it shine",
+  "author": "jhon willams",
+  "pages": 780,
+  "rating": 8.2,
+  "reviews": [
+    {
+      "name": "rodrina falangi",
+      "review": "awesome"
+    },
+    {
+      "name": "micheal jackson",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "tragedy"
+  ]
+},{
+  "_id": {
+    "$oid": "6383028aa0f56159b6885807"
+  },
+  "title": "we made it shine",
+  "author": "jhon willams",
+  "pages": 780,
+  "rating": 8.2,
+  "reviews": [
+    {
+      "name": "rodrina falangi",
+      "review": "awesome"
+    },
+    {
+      "name": "micheal jackson",
+      "review": "spectacular"
+    }
+  ],
+  "genres": [
+    "romance",
+    "tragedy"
+  ]
+},{
+  "_id": {
+    "$oid": "63834b8069bb58baf142b16a"
+  },
+  "title": "you belong with me",
+  "author": "taylor swift",
+  "rating": 10,
+  "pages": 320,
+  "genres": [
+    "romcom"
+  ],
+  "reviews": [
+    {
+      "name": "Ipsika Ghimire",
+      "review": "best hindi books recommended for everyone"
+    },
+    {
+      "name": "Ishani Ghimire",
+      "review": "great book!"
+    }
+  ]
+}]
