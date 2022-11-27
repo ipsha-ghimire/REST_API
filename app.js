@@ -18,10 +18,13 @@ dbconnection((err)=>{
 })
 
 
-//get all books
+//get all books with pagnation 
+
 app.get("/books",(req,res)=>{
-  let books=[];
-  db.collection("books").find().forEach(book =>books.push(book)
+const page= req.query.p||0;
+const booksPerPage=3;
+let books=[];
+  db.collection("books").find().skip(page*booksPerPage).limit(booksPerPage).forEach(book =>books.push(book)
   ).then(()=>{res.status(200).json(books)}).catch(()=>{res.status(501).json({err:"could not get books"})});  
 });
 
