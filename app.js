@@ -1,8 +1,6 @@
 //creating a restful api with node express and mongodb 
 const express = require("express");
-const {objectID,ObjectId}= require("mongodb");
-
-
+const {ObjectId}= require("mongodb");
 const {dbconnection,getDb}= require("./db")
 
 const app = express();
@@ -51,9 +49,29 @@ db.collection("books").insertOne(body).then((result)=>{res.status(201).json({res
 })
 
 //delete books 
+app.delete("/books/:id",(req,res)=>{
+  if(ObjectId.isValid(req.params.id)){
+    db.collection("books").deleteOne({_id:ObjectId(req.params.id)}).then((result)=>{res.status(201).json({result})}).catch(()=>{
+      res.status(500).json({err:"culd not delete the book"})
+    })
+   }
+  else{
+    res.status(500).json({err:"invalid document id"})
+  }
+  
+  }
+)
 
-
-
+//patch request(update books)
+app.patch("/books/:id",(req,res)=>{
+  const body= req.body
+  if(ObjectId.isValid(req.params.id)){
+    db.collection("books").updateOne({_id:ObjectId(req.params.id)},{$set:body}).then((result)=>{res.status(201).json({result})}).catch(()=>{res.status(500).json({err:"could not delete document"})})
+  }
+  else{
+    res.status(500).json({err:"invalid document id"});
+  }
+})
 
 
 
