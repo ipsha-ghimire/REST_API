@@ -10,7 +10,7 @@ let db;
 
 dbconnection((err)=>{
   if(!err){
-    app.listen(3000,(req,res)=>{
+    app.listen(process.env.PORT||3000,(req,res)=>{
       console.log("app listening on port 3000")
   })
   db= getDb();

@@ -4,8 +4,10 @@ let connectedinfo;
 module.exports={
     dbconnection:(cb)=>{
         MongoClient.connect(process.env.MONGODB_URL).then((client)=>{
+            console.log('succesfull connection')
            connectedinfo=client.db() ;
            return cb();
+        
         }).catch(err=>{
        console.log(err);
        return cb(err);
