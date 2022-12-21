@@ -2,7 +2,7 @@
 const express = require("express");
 const {ObjectId}= require("mongodb");
 const {dbconnection,getDb}= require("./db")
-
+const PORT= process.env.PORT||3000
 const app = express();
 
 app.use(express.json());
@@ -10,8 +10,8 @@ let db;
 
 dbconnection((err)=>{
   if(!err){
-    app.listen(process.env.PORT||3000,(req,res)=>{
-      console.log("app listening on port 3000")
+    app.listen(PORT,(req,res)=>{
+      console.log(`app listening on port ${PORT}`)
   })
   db= getDb();
   }
