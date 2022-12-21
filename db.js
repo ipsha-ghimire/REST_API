@@ -1,8 +1,9 @@
 const {MongoClient}= require("mongodb");
+require('dotenv').config();
 let connectedinfo;
 module.exports={
     dbconnection:(cb)=>{
-        MongoClient.connect("mongodb+srv://ipsha:VQtTSBiEW388Um1e@cluster0.hagje6q.mongodb.net/bookstore?retryWrites=true&w=majority").then((client)=>{
+        MongoClient.connect(process.env.MONGODB_URL).then((client)=>{
            connectedinfo=client.db() ;
            return cb();
         }).catch(err=>{
